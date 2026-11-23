@@ -7,6 +7,7 @@
     "generate-assets": "node scripts/generate-assets.mjs",
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
+    "deploy": "npm run build && node scripts/deploy-gh-pages.mjs",
     "preview": "vite preview",
     "test": "node --experimental-strip-types --test src/game/rules/__tests__/*.test.ts"
   },
