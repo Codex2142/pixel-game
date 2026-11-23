@@ -22,80 +22,80 @@ export class BootScene extends Phaser.Scene {
 
   preload(): void {
     // Terrain tiles
-    this.load.image('tile-grass-0', '/assets/tile-grass-0.png');
-    this.load.image('tile-grass-1', '/assets/tile-grass-1.png');
-    this.load.image('tile-grass-2', '/assets/tile-grass-2.png');
-    this.load.image('tile-dirt-path', '/assets/tile-dirt-path.png');
-    this.load.image('tile-cobble', '/assets/tile-cobble.png');
-    this.load.image('tile-ruin-floor', '/assets/tile-ruin-floor.png');
-    this.load.image('tile-vault-floor', '/assets/tile-vault-floor.png');
-    this.load.image('tile-bridge', '/assets/tile-bridge.png');
-    this.load.spritesheet('tile-water', '/assets/tile-water-sheet.png', {
+    this.load.image('tile-grass-0', 'assets/tile-grass-0.png');
+    this.load.image('tile-grass-1', 'assets/tile-grass-1.png');
+    this.load.image('tile-grass-2', 'assets/tile-grass-2.png');
+    this.load.image('tile-dirt-path', 'assets/tile-dirt-path.png');
+    this.load.image('tile-cobble', 'assets/tile-cobble.png');
+    this.load.image('tile-ruin-floor', 'assets/tile-ruin-floor.png');
+    this.load.image('tile-vault-floor', 'assets/tile-vault-floor.png');
+    this.load.image('tile-bridge', 'assets/tile-bridge.png');
+    this.load.spritesheet('tile-water', 'assets/tile-water-sheet.png', {
       frameWidth: 64,
       frameHeight: 40,
     });
 
     // Environmental Props
-    this.load.image('prop-oak-0', '/assets/prop-oak-0.png');
-    this.load.image('prop-oak-1', '/assets/prop-oak-1.png');
-    this.load.image('prop-pine', '/assets/prop-pine.png');
-    this.load.image('prop-bush', '/assets/prop-bush.png');
-    this.load.image('prop-rock', '/assets/prop-rock.png');
-    this.load.image('prop-ruin-pillar-broken', '/assets/prop-ruin-pillar-broken.png');
-    this.load.image('prop-ruin-arch', '/assets/prop-ruin-arch.png');
-    this.load.image('prop-outpost-tent', '/assets/prop-outpost-tent.png');
-    this.load.image('prop-lore-tablet', '/assets/prop-lore-tablet.png');
-    this.load.image('prop-dungeon-gate', '/assets/prop-dungeon-gate.png');
+    this.load.image('prop-oak-0', 'assets/prop-oak-0.png');
+    this.load.image('prop-oak-1', 'assets/prop-oak-1.png');
+    this.load.image('prop-pine', 'assets/prop-pine.png');
+    this.load.image('prop-bush', 'assets/prop-bush.png');
+    this.load.image('prop-rock', 'assets/prop-rock.png');
+    this.load.image('prop-ruin-pillar-broken', 'assets/prop-ruin-pillar-broken.png');
+    this.load.image('prop-ruin-arch', 'assets/prop-ruin-arch.png');
+    this.load.image('prop-outpost-tent', 'assets/prop-outpost-tent.png');
+    this.load.image('prop-lore-tablet', 'assets/prop-lore-tablet.png');
+    this.load.image('prop-dungeon-gate', 'assets/prop-dungeon-gate.png');
 
-    this.load.spritesheet('prop-campfire', '/assets/prop-campfire-sheet.png', {
+    this.load.spritesheet('prop-campfire', 'assets/prop-campfire-sheet.png', {
       frameWidth: 48,
       frameHeight: 48,
     });
-    this.load.spritesheet('prop-waystone', '/assets/prop-waystone-sheet.png', {
+    this.load.spritesheet('prop-waystone', 'assets/prop-waystone-sheet.png', {
       frameWidth: 64,
       frameHeight: 88,
     });
-    this.load.spritesheet('prop-rune-pillar', '/assets/prop-rune-pillar-sheet.png', {
+    this.load.spritesheet('prop-rune-pillar', 'assets/prop-rune-pillar-sheet.png', {
       frameWidth: 48,
       frameHeight: 84,
     });
-    this.load.spritesheet('prop-vault-door', '/assets/prop-vault-door-sheet.png', {
+    this.load.spritesheet('prop-vault-door', 'assets/prop-vault-door-sheet.png', {
       frameWidth: 80,
       frameHeight: 96,
     });
-    this.load.spritesheet('prop-chest', '/assets/prop-chest-sheet.png', {
+    this.load.spritesheet('prop-chest', 'assets/prop-chest-sheet.png', {
       frameWidth: 48,
       frameHeight: 44,
     });
 
     // Legacy player sheet + All 12 Modular 8-Directional Character & Equipment Layers
-    this.load.spritesheet('player', '/assets/player-sheet.png', {
+    this.load.spritesheet('player', 'assets/player-sheet.png', {
       frameWidth: 48,
       frameHeight: 56,
     });
     for (const key of MODULAR_LAYER_KEYS) {
-      this.load.spritesheet(key, `/assets/${key}.png`, {
+      this.load.spritesheet(key, `assets/${key}.png`, {
         frameWidth: 48,
         frameHeight: 56,
       });
     }
 
     // Enemies
-    this.load.spritesheet('goblin', '/assets/goblin-sheet.png', {
+    this.load.spritesheet('goblin', 'assets/goblin-sheet.png', {
       frameWidth: 40,
       frameHeight: 44,
     });
-    this.load.spritesheet('sentinel', '/assets/sentinel-sheet.png', {
+    this.load.spritesheet('sentinel', 'assets/sentinel-sheet.png', {
       frameWidth: 64,
       frameHeight: 72,
     });
 
     // VFX
-    this.load.spritesheet('vfx-slash', '/assets/vfx-slash-sheet.png', {
+    this.load.spritesheet('vfx-slash', 'assets/vfx-slash-sheet.png', {
       frameWidth: 64,
       frameHeight: 64,
     });
-    this.load.spritesheet('vfx-arcane', '/assets/vfx-arcane-sheet.png', {
+    this.load.spritesheet('vfx-arcane', 'assets/vfx-arcane-sheet.png', {
       frameWidth: 32,
       frameHeight: 32,
     });

@@ -98,7 +98,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: 'Cobalt Ranger Hood',
     slot: 'headgear',
     visualLayerKey: 'layer-head-hood',
-    icon: '/assets/icon-head-hood.png',
+    icon: 'assets/icon-head-hood.png',
     description: 'Hooded cobalt mantle stitched with a silver knightly circlet (+10 Max HP, +2 DEF).',
     modifiers: [
       { stat: 'maxHp', kind: 'flat', value: 10 },
@@ -110,7 +110,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: 'Vanguard Greathelm',
     slot: 'headgear',
     visualLayerKey: 'layer-head-helm',
-    icon: '/assets/icon-head-helm.png',
+    icon: 'assets/icon-head-helm.png',
     description: 'Forged steel visor helm with gilded crest (+22 Max HP, +5 DEF).',
     modifiers: [
       { stat: 'maxHp', kind: 'flat', value: 22 },
@@ -122,7 +122,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: 'Wayfarer Cobalt Brigandine',
     slot: 'chest',
     visualLayerKey: 'layer-chest-surcoat',
-    icon: '/assets/icon-chest-surcoat.png',
+    icon: 'assets/icon-chest-surcoat.png',
     description: 'Supple cobaltbrigandine over chainmail (+15 Max HP, +12 Max Stamina, +4 DEF).',
     modifiers: [
       { stat: 'maxHp', kind: 'flat', value: 15 },
@@ -135,7 +135,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: 'Aethelgard Plate Cuirass',
     slot: 'chest',
     visualLayerKey: 'layer-chest-plate',
-    icon: '/assets/icon-chest-plate.png',
+    icon: 'assets/icon-chest-plate.png',
     description: 'Fluted royal plate breastplate and pauldrons (+35 Max HP, +9 DEF).',
     modifiers: [
       { stat: 'maxHp', kind: 'flat', value: 35 },
@@ -147,7 +147,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: 'Reinforced Tassets & Trousers',
     slot: 'legs',
     visualLayerKey: 'layer-legs-greaves',
-    icon: '/assets/icon-legs-greaves.png',
+    icon: 'assets/icon-legs-greaves.png',
     description: 'Quilted wool and riveted thigh plates (+10 Max Stamina, +3 DEF).',
     modifiers: [
       { stat: 'maxStamina', kind: 'flat', value: 10 },
@@ -159,7 +159,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: 'Knightly Vambraces',
     slot: 'gloves',
     visualLayerKey: 'layer-gloves-gauntlets',
-    icon: '/assets/icon-gloves-gauntlets.png',
+    icon: 'assets/icon-gloves-gauntlets.png',
     description: 'Articulated steel gauntlets that steady every strike (+3 ATK, +2 DEF).',
     modifiers: [
       { stat: 'attack', kind: 'flat', value: 3 },
@@ -171,7 +171,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: 'Strider Leather Boots',
     slot: 'boots',
     visualLayerKey: 'layer-boots-leather',
-    icon: '/assets/icon-boots-leather.png',
+    icon: 'assets/icon-boots-leather.png',
     description: 'Cushioned forest-strider boots (+15 Max Stamina, +2 DEF).',
     modifiers: [
       { stat: 'maxStamina', kind: 'flat', value: 15 },
@@ -183,7 +183,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: "Knight's Rondel Dagger",
     slot: 'mainHand',
     visualLayerKey: 'layer-weapon-dagger',
-    icon: '/assets/icon-weapon-dagger.png',
+    icon: 'assets/icon-weapon-dagger.png',
     weaponKind: 'dagger',
     description:
       'One-Handed Dagger — Rapid precision strikes (14 Stamina), +6 ATK, +12% Crit Chance. Compatible with Off-Hand Shield.',
@@ -197,7 +197,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: 'Aethelgard Claymore (Greatsword)',
     slot: 'mainHand',
     visualLayerKey: 'layer-weapon-greatsword',
-    icon: '/assets/icon-weapon-greatsword.png',
+    icon: 'assets/icon-weapon-greatsword.png',
     weaponKind: 'greatsword',
     description:
       'Two-Handed Greatsword — Massive sweeping arcs (26 Stamina), +16 ATK, high stagger power. Cannot be used with a Shield.',
@@ -208,7 +208,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: 'Heraldic Kite Shield',
     slot: 'offHand',
     visualLayerKey: 'layer-offhand-shield',
-    icon: '/assets/icon-offhand-shield.png',
+    icon: 'assets/icon-offhand-shield.png',
     description:
       'Off-Hand Shield — Steel-rimmed kite shield (+8 DEF, +20 Max HP). Enables Guard Blocking [Shift]. Requires One-Handed Dagger.',
     modifiers: [
@@ -221,7 +221,7 @@ export const EQUIPMENT_CATALOG: Record<string, EquipmentDefinition> = {
     name: 'Wayfarer Cloak & Gold Baldric',
     slot: 'accessory',
     visualLayerKey: 'layer-accessory-cloak',
-    icon: '/assets/icon-accessory-cloak.png',
+    icon: 'assets/icon-accessory-cloak.png',
     description: 'Embroidered cobalt travel cloak with gilded sword baldric (+10 Max Stamina, +5% Crit).',
     modifiers: [
       { stat: 'maxStamina', kind: 'flat', value: 10 },

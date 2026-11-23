@@ -270,7 +270,7 @@ export const Hud: React.FC<HudProps> = ({
           >
             <span className="quick-key">{hud.keybindings.blockKey}</span>
             <img
-              src={offhandDef?.icon ?? '/assets/icon-offhand-shield.png'}
+              src={offhandDef?.icon ?? 'assets/icon-offhand-shield.png'}
               alt="Off-Hand Shield"
             />
             <span className="quick-qty" style={{ fontSize: '7px' }}>
@@ -287,7 +287,7 @@ export const Hud: React.FC<HudProps> = ({
             onClick={() => eventBus.emit('cmd:useItem', { itemId: 'health_potion' })}
           >
             <span className="quick-key">1</span>
-            <img src="/assets/icon-hp-potion.png" alt="Health Potion" />
+            <img src="assets/icon-hp-potion.png" alt="Health Potion" />
             <span className="quick-qty">{hud.quickPotions.healthCount}</span>
           </div>
 
@@ -298,7 +298,7 @@ export const Hud: React.FC<HudProps> = ({
             onClick={() => eventBus.emit('cmd:useItem', { itemId: 'stamina_potion' })}
           >
             <span className="quick-key">2</span>
-            <img src="/assets/icon-stamina-potion.png" alt="Stamina Potion" />
+            <img src="assets/icon-stamina-potion.png" alt="Stamina Potion" />
             <span className="quick-qty">{hud.quickPotions.staminaCount}</span>
           </div>
 
@@ -308,7 +308,7 @@ export const Hud: React.FC<HudProps> = ({
             title="[Right-Click / Q] Arcane Bolt (24 Stamina, 3.5s Cooldown)"
           >
             <span className="quick-key">Q</span>
-            <img src="/assets/icon-arcane.png" alt="Arcane Bolt" />
+            <img src="assets/icon-arcane.png" alt="Arcane Bolt" />
             {hud.arcaneCooldown > 0 && (
               <div className="cooldown-overlay">{hud.arcaneCooldown}s</div>
             )}
