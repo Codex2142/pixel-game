@@ -1,0 +1,820 @@
+{
+  "project": "Vale of Aethelgard — Isometric Action RPG Prototype",
+  "perspective": "2D Isometric (2:1 projection, 64x32 diamond tiles)",
+  "paletteSize": 32,
+  "generatedAt": "2026-11-23T16:19:55.206Z",
+  "assets": [
+    {
+      "file": "tile-grass-0.png",
+      "category": "terrain",
+      "role": "Lush isometric forest grass v0",
+      "width": 64,
+      "height": 40,
+      "uniqueColors": 6,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "tile-grass-1.png",
+      "category": "terrain",
+      "role": "Lush isometric forest grass v1",
+      "width": 64,
+      "height": 40,
+      "uniqueColors": 8,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "tile-grass-2.png",
+      "category": "terrain",
+      "role": "Lush isometric forest grass v2",
+      "width": 64,
+      "height": 40,
+      "uniqueColors": 7,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "tile-dirt-path.png",
+      "category": "terrain",
+      "role": "Worn forest dirt trail",
+      "width": 64,
+      "height": 40,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "tile-cobble.png",
+      "category": "terrain",
+      "role": "Ancient mossy cobblestone path",
+      "width": 64,
+      "height": 40,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "tile-ruin-floor.png",
+      "category": "terrain",
+      "role": "Sunken temple carved flagstones",
+      "width": 64,
+      "height": 40,
+      "uniqueColors": 6,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "tile-vault-floor.png",
+      "category": "terrain",
+      "role": "Ornamented hidden vault sunstone tile",
+      "width": 64,
+      "height": 40,
+      "uniqueColors": 6,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "tile-bridge.png",
+      "category": "terrain",
+      "role": "Isometric wooden bridge planks",
+      "width": 64,
+      "height": 40,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "tile-water-sheet.png",
+      "category": "terrain",
+      "role": "Animated 3-frame crystal river water",
+      "width": 192,
+      "height": 40,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-oak-0.png",
+      "category": "prop",
+      "role": "Ancient forest oak tree v0",
+      "width": 96,
+      "height": 112,
+      "uniqueColors": 11,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-oak-1.png",
+      "category": "prop",
+      "role": "Ancient forest oak tree v1",
+      "width": 96,
+      "height": 112,
+      "uniqueColors": 11,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-pine.png",
+      "category": "prop",
+      "role": "Tall whispering pine tree",
+      "width": 72,
+      "height": 108,
+      "uniqueColors": 7,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-bush.png",
+      "category": "prop",
+      "role": "Flowering forest shrub",
+      "width": 44,
+      "height": 36,
+      "uniqueColors": 8,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-rock.png",
+      "category": "prop",
+      "role": "Moss-covered forest boulder",
+      "width": 48,
+      "height": 36,
+      "uniqueColors": 6,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-ruin-pillar-broken.png",
+      "category": "prop",
+      "role": "Weathered broken temple column",
+      "width": 48,
+      "height": 80,
+      "uniqueColors": 7,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-ruin-arch.png",
+      "category": "prop",
+      "role": "Ivy-draped stone temple archway",
+      "width": 96,
+      "height": 96,
+      "uniqueColors": 9,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-outpost-tent.png",
+      "category": "prop",
+      "role": "Abandoned ranger outpost shelter",
+      "width": 88,
+      "height": 72,
+      "uniqueColors": 7,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-campfire-sheet.png",
+      "category": "prop",
+      "role": "Animated 4-frame ranger campfire",
+      "width": 192,
+      "height": 48,
+      "uniqueColors": 8,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-waystone-sheet.png",
+      "category": "prop",
+      "role": "Waystone Shrine checkpoint (dormant & active)",
+      "width": 256,
+      "height": 88,
+      "uniqueColors": 9,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-rune-pillar-sheet.png",
+      "category": "prop",
+      "role": "Ruined temple rune mechanism pillars (Moon/Sun/Star)",
+      "width": 288,
+      "height": 84,
+      "uniqueColors": 11,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-vault-door-sheet.png",
+      "category": "prop",
+      "role": "Ancient temple hidden vault gate (sealed & open)",
+      "width": 160,
+      "height": 96,
+      "uniqueColors": 10,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-chest-sheet.png",
+      "category": "prop",
+      "role": "Medieval iron-bound treasure chest",
+      "width": 96,
+      "height": 44,
+      "uniqueColors": 10,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-lore-tablet.png",
+      "category": "prop",
+      "role": "Carved ancient lore stele",
+      "width": 40,
+      "height": 52,
+      "uniqueColors": 6,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "prop-dungeon-gate.png",
+      "category": "prop",
+      "role": "Monumental sealed dungeon entrance",
+      "width": 128,
+      "height": 128,
+      "uniqueColors": 11,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "player-sheet.png",
+      "category": "character",
+      "role": "Sir Aldric 24-frame action spritesheet",
+      "width": 1152,
+      "height": 56,
+      "uniqueColors": 16,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "goblin-sheet.png",
+      "category": "enemy",
+      "role": "Goblin Scout 16-frame spritesheet",
+      "width": 640,
+      "height": 44,
+      "uniqueColors": 9,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "sentinel-sheet.png",
+      "category": "enemy",
+      "role": "Moss-Stone Sentinel Elite 18-frame spritesheet",
+      "width": 1152,
+      "height": 72,
+      "uniqueColors": 12,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "vfx-slash-sheet.png",
+      "category": "vfx",
+      "role": "4-frame sword slash crescent arc",
+      "width": 256,
+      "height": 64,
+      "uniqueColors": 3,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "vfx-arcane-sheet.png",
+      "category": "vfx",
+      "role": "4-frame Arcane Bolt spell projectile",
+      "width": 128,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-hp-potion.png",
+      "category": "icon",
+      "role": "Health Potion icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 6,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-stamina-potion.png",
+      "category": "icon",
+      "role": "Stamina Potion icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 6,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-seal.png",
+      "category": "icon",
+      "role": "Wayfarer Seal quest item icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-sunstone.png",
+      "category": "icon",
+      "role": "Sunstone Relic quest item icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 3,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-core.png",
+      "category": "icon",
+      "role": "Sentinel Amber Core quest item icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-arcane.png",
+      "category": "icon",
+      "role": "Arcane Bolt spell icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-head-hood.png",
+      "category": "icon",
+      "role": "Cobalt Ranger Hood icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-head-helm.png",
+      "category": "icon",
+      "role": "Vanguard Greathelm icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-chest-surcoat.png",
+      "category": "icon",
+      "role": "Wayfarer Cobalt Brigandine icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-chest-plate.png",
+      "category": "icon",
+      "role": "Aethelgard Plate Cuirass icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-legs-greaves.png",
+      "category": "icon",
+      "role": "Reinforced Tassets icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-gloves-gauntlets.png",
+      "category": "icon",
+      "role": "Knightly Vambraces icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-boots-leather.png",
+      "category": "icon",
+      "role": "Strider Leather Boots icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-weapon-dagger.png",
+      "category": "icon",
+      "role": "Rondel Dagger icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-weapon-greatsword.png",
+      "category": "icon",
+      "role": "Aethelgard Claymore Greatsword icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-offhand-shield.png",
+      "category": "icon",
+      "role": "Heraldic Kite Shield icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "icon-accessory-cloak.png",
+      "category": "icon",
+      "role": "Wayfarer Cloak & Gold Baldric icon",
+      "width": 32,
+      "height": 32,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-body-base.png",
+      "category": "modular-layer",
+      "role": "Base character body 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 8,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-head-hood.png",
+      "category": "modular-layer",
+      "role": "Cobalt Ranger Hood 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-head-helm.png",
+      "category": "modular-layer",
+      "role": "Vanguard Greathelm 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-chest-surcoat.png",
+      "category": "modular-layer",
+      "role": "Wayfarer Cobalt Brigandine 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-chest-plate.png",
+      "category": "modular-layer",
+      "role": "Aethelgard Plate Cuirass 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 5,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-legs-greaves.png",
+      "category": "modular-layer",
+      "role": "Reinforced Tassets 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 3,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-gloves-gauntlets.png",
+      "category": "modular-layer",
+      "role": "Knightly Vambraces 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 3,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-boots-leather.png",
+      "category": "modular-layer",
+      "role": "Strider Leather Boots 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 3,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-accessory-cloak.png",
+      "category": "modular-layer",
+      "role": "Wayfarer Cloak & Baldric 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 3,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-weapon-dagger.png",
+      "category": "modular-layer",
+      "role": "Rondel Dagger 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 6,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-weapon-greatsword.png",
+      "category": "modular-layer",
+      "role": "Aethelgard Greatsword 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    },
+    {
+      "file": "layer-offhand-shield.png",
+      "category": "modular-layer",
+      "role": "Heraldic Kite Shield 8-dir layer",
+      "width": 1440,
+      "height": 448,
+      "uniqueColors": 4,
+      "hasAlpha": true,
+      "source": {
+        "kind": "deterministic-pixel-pipeline",
+        "license": "CC0-Original"
+      },
+      "technical_checks_passed": true
+    }
+  ]
+}
